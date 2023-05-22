@@ -551,6 +551,11 @@ a {
     right: -32px;
 }
 
+.testimonial .quote,
+.testimonial .quote__author {
+        font-size: 2.4rem;
+    }
+
 @media screen and (min-width: 768px) {
     .testimonial .quote,
     .testimonial .quote__author {
@@ -660,6 +665,7 @@ a {
 
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .block__heading {
