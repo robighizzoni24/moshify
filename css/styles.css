@@ -53,7 +53,7 @@ h2 {
 
 h3 {
     font-size: 3rem; 
-    font-weight: 500;
+    font-weight: 600;
 }
 
 p {
@@ -159,7 +159,6 @@ a {
 .list--tick {
     list-style-image: url(../Images/tick.svg);
     padding-left: 3rem;
-    color: var(--color-headings);
 }
 
 .list--tick .list__item {
@@ -223,7 +222,7 @@ a {
    font-weight: 600;
    margin: 1rem 0;
    outline: 0;
-   padding: 2rem 3rem;
+   padding: 2rem 4vw;
    text-transform: uppercase;
    text-align: center;
    white-space: nowrap;
@@ -591,6 +590,10 @@ a {
     color: white;
   }
 
+  .callout-signup {
+    transform: translateY(5rem);
+}
+
   .callout__title {
     color: white;
     margin-top: 0;
@@ -660,7 +663,7 @@ a {
 
 .block {
     padding: var(--padding-vertical) 2rem;
-    --padding-vertical: 6rem;
+    --padding-vertical: 5rem;
 }
 
 .block__header {
@@ -800,8 +803,9 @@ a {
 }
 
 .block-domain__prices {
+    color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     font-size: 2rem;
     font-weight: 600;
@@ -842,7 +846,7 @@ a {
 }
 
 .feature {
-    gap: 4rem 2rem;
+    gap: 4rem 3rem;
     margin: 12rem 0;
     align-items: center;
 }
@@ -886,6 +890,7 @@ a {
 
 .footer {
     background: #232323;
+    padding-top: 10rem;
 }
 
 .footer a {
