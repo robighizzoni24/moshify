@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.75" height="112.97" viewBox="0 0 46.75 112.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #402b86;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #1b0760;
+      }
+
+      .cls-3 {
+        font-size: 15px;
+        fill: #fff;
+        font-family: Inter;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M479,2553.49h46.746l-7.791-6.49H486.791Z" transform="translate(-479 -2547)"/>
+  <path class="cls-2" d="M486.791,2659.97l16.881-12.99,15.582,12.99V2547H486.791v112.97Z" transform="translate(-479 -2547)"/>
+  <text id="Popular" class="cls-3" transform="translate(18.775 15.022) rotate(90) scale(1.298)">Popular</text>
+</svg>
